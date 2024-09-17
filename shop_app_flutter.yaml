@@ -1,0 +1,18 @@
+flutter_native_splash:
+  color: "#FFF8F0" # Same as your primary color (hex value of Color.fromRGBO(254, 206, 1, 1))
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+  android_gravity: center  # Optional, aligns content in center
+
+
+  image: "assets/images/android_logo.png"
+  # background_image: "assets/images/android_background.png"
+  branding: "assets/images/android_branding.png"
+
+  android_12:
+    # color: "#FFF8F0" # Same as your primary color (hex value of Color.fromRGBO(254, 206, 1, 1))
+    image: "assets/images/android_logo.png"
+    # background_image: "assets/images/android_background.png"
+    branding: "assets/images/android_branding.png"
