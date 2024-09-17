@@ -2,11 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:provider/provider.dart';
 import 'package:shop_app_flutter/pages/home_page.dart';
-import 'package:shop_app_flutter/pages/splash_page.dart';
 import 'package:shop_app_flutter/providers/cart_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:shop_app_flutter/firebase_options.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +23,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     initialization();
   }
