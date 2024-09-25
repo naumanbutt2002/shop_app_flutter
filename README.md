@@ -1,3 +1,5 @@
+![shopping](https://github.com/user-attachments/assets/2d90bf39-03e1-459e-bc3d-1f500c18bbcf)
+
 # Shop App Flutter
 
 ![Platform](https://img.shields.io/badge/platform-iOS%20|%20Android-brightgreen)
