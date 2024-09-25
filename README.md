@@ -19,14 +19,14 @@
 - [Contact](#contact)
 
 ## Introduction
-
-The **Shop App Flutter** is a fully functional e-commerce application developed using **Flutter**, **Provider**, and **Dart**. The application features a sleek and intuitive UI for browsing products, adding them to the cart, and managing orders. The app architecture is designed with scalability in mind, making it easy to extend and adapt for future features.
+The **Shop App Flutter** is a fully functional e-commerce application developed using **Flutter**, **Provider**, **Firebase**, and **Dart**. It features a sleek and intuitive UI for browsing products, managing a shopping cart, and handling orders. Firebase integration allows for adding products to the cart and fetching cart data, ensuring a dynamic user experience. The app architecture is designed with scalability in mind, making it easy to extend and adapt for future features.
 
 ## Features
 
 - **Product Listing**: Browse a wide range of products with detailed descriptions and images.
-- **Shopping Cart**: Add products to your cart, update quantities, and remove items as needed.
+- **Shopping Cart:** Add products to your cart via Firebase, update quantities, and remove items as needed.
 - **Product Details**: View detailed information about each product, including images, descriptions, and pricing.
+- **Firebase Integration:** Add products to the cart and fetch cart details directly from Firebase.
 - **Provider State Management**: Efficient state management across the app using the Provider package.
 - **Responsive Design**: Optimized for both iOS and Android, ensuring a smooth experience across devices.
 
@@ -45,7 +45,7 @@ The **Shop App Flutter** is a fully functional e-commerce application developed 
 ### Prerequisites
 
 - **Flutter**: Ensure Flutter is installed on your machine. Follow the official [Flutter installation guide](https://flutter.dev/docs/get-started/install) for your OS.
-
+- **Firebase:** Set up a Firebase project and add the necessary configurations for Android and iOS.
 ### Steps
 
 1. Clone the repository:
@@ -76,12 +76,14 @@ The **Shop App Flutter** is a fully functional e-commerce application developed 
 ### Managing the Shopping Cart:
 
 - Add items to the shopping cart from the product details screen.
+- The cart data is stored and fetched from Firebase.
 - Review your cart, update quantities, or remove items.
 - Proceed to checkout (functionality to be implemented).
 
 ## Technologies Used
 - **Flutter**: Cross-platform UI toolkit.
 - **Provider**: State management solution for Flutter.
+- **Firebase**: For managing cart functionality and real-time data sync.
 - **Dart**: Programming language used to build the application.
   
 ## Architecture
